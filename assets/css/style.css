@@ -360,3 +360,19 @@ td img {
 .footer p {
 	padding: 0 0 10px 0;
 }
+
+/* CSS Mobile */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width:568px) {
+  
+  .header, .footer, .button, input[type="submit"] {
+    background-color: #257965;
+  }
+
+  input[value="Найти"],input[value="Войти"] {
+    color: white;
+  }
+
+}
